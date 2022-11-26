@@ -2,7 +2,7 @@
 Assignment
 
 
-#Project Description
+# Project Description
 
 This project is a part of assignment given by Zekaademy.
 
@@ -23,14 +23,14 @@ The project folder's structure is like this:-
 ![image](https://user-images.githubusercontent.com/89704806/204094037-17f9ac6a-86ca-4e7c-8c07-d12fd2f5411c.png)                 ![image](https://user-images.githubusercontent.com/89704806/204094023-0a9196b7-141f-4d27-90e3-41c86e030c96.png)   
 
 
-#How to install and make it workable?
+# How to install and make it workable?
 
 Just need to clone this repository and install the postman 
 Do the necessory changes like providing the s3 bucket region, key and secret key in the process.env file for saving the image in s3 bucket also you need do the some changes in the nodemailer option and in the createTransport funntion to make it workable for the email you provided.
 
 It is over now start sending requests using the postman
 
-#To make it workable for a frontend app
+# To make it workable for a frontend app
 You just need to call the following apis in the frontend
 1. /api/register : 
 Here you need to send the user's information in json data format in body of the request
