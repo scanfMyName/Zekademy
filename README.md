@@ -40,19 +40,19 @@ in your terminal.
 The process is over now start sending requests using the postman.
 
 ## To make it workable for a frontend app
-In addition to the above you need to call the following api's in the frontend
+In addition to the above you need to call the following api's in the frontend.
 1. /api/register : 
-Here you need to send the user's information in json data format in body of the request
+Here you need to send the user's information in json data format in body of the request.
 This api will send you the token created by the jwt library and a message of success after complete validation else the corresponding error in json format.
 
-2. /api/login : Here you need to send the user's information in json data format in body of the request
+2. /api/login : Here you need to send the user's information in json data format in body of the request.
 This will also provide the same as above.
 
 3. /api/image/upload : Here you need to send the image as a form element in the body of the request.
 This api will return you the corresponding id by which the provided image will be accessible in the future.
 
 4. /api/image/fetch : here you need to provide the query params for the image id(corresponding to what you saved in the s3 bucket) that you want to fetch.
-This image will give you the image link from where you can access the needed image as provided in the request if any such image exist in the s3 bucket
+This api will return you the image link from where you can access the needed image as provided in the request if any such image exist in the s3 bucket.
 
 
 ## Tech Stack
