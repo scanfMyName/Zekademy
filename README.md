@@ -1,8 +1,7 @@
-# Zekademy
-Assignment
+# Zekademy Assignment
 
 
-# Project Description
+## Project Description
 
 This project is a part of assignment given by Zekaademy.
 
@@ -20,18 +19,25 @@ Here the challenges I faced:-
 
 The project folder's structure is like this:-
 
-![image](https://user-images.githubusercontent.com/89704806/204094128-bb0ca19e-3821-4ae3-9630-507d649bb159.png)                            ![image](https://user-images.githubusercontent.com/89704806/204094037-17f9ac6a-86ca-4e7c-8c07-d12fd2f5411c.png)                 
+![image](https://user-images.githubusercontent.com/89704806/204094128-bb0ca19e-3821-4ae3-9630-507d649bb159.png)                                                                                                                                                  ![image](https://user-images.githubusercontent.com/89704806/204094037-17f9ac6a-86ca-4e7c-8c07-d12fd2f5411c.png)                 
 
 
 
-# How to install and make it workable?
+## How to install and make it workable?
 
-Just need to clone this repository and install the postman 
-Do the necessory changes like providing the s3 bucket region, key and secret key in the process.env file for saving the image in s3 bucket also you need do the some changes in the nodemailer option and in the createTransport funntion to make it workable for the email you provided.
+Clone this repository and install the postman 
+To install all the dependencies do
+
+```bash
+  npm i
+```
+
+- Do the necessory changes like providing the s3 bucket region, key and secret key in the process.env file for saving the image in s3 bucket. 
+- Do the some changes in the nodemailer option and in the createTransport funntion to make it workable for the email you provided.
 
 It is over now start sending requests using the postman
 
-# To make it workable for a frontend app
+## To make it workable for a frontend app
 You just need to call the following apis in the frontend
 1. /api/register : 
 Here you need to send the user's information in json data format in body of the request
@@ -46,3 +52,9 @@ This api will return you the corresponding id by which the provided image will b
 4. /api/image/fetch : here you need to provide the query params for the image id(corresponding to what you saved in the s3 bucket) that you want to fetch
 This image will give you the image link from where you can access the needed
 image as provided in the request if any such image exist in the s3 bucket
+
+
+## Tech Stack
+
+
+**Server:** Node, Express, MongoDB, AWS
