@@ -18,7 +18,6 @@ exports.userLogin = (req, res) => {
   const query = { email: req.body.email };
   User.findOne(query)
     .then((user) => {
-      console.log(user);
       if (user != null) {
         // if(!user.useremailverified){
         //   errors.email = "Please verify your email first";
