@@ -52,3 +52,9 @@ This api will return you the corresponding id by which the provided image will b
 4. /api/image/fetch : here you need to provide the query params for the image id(corresponding to what you saved in the s3 bucket) that you want to fetch
 This image will give you the image link from where you can access the needed
 image as provided in the request if any such image exist in the s3 bucket
+
+
+## Tech Stack
+
+
+**Server:** Node, Express, MongoDB, AWS
