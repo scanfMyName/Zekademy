@@ -25,8 +25,15 @@ The project folder's structure is like this:-
 
 ## How to install and make it workable?
 
-Just need to clone this repository and install the postman 
-Do the necessory changes like providing the s3 bucket region, key and secret key in the process.env file for saving the image in s3 bucket also you need do the some changes in the nodemailer option and in the createTransport funntion to make it workable for the email you provided.
+Clone this repository and install the postman 
+To install all the dependencies do
+
+```bash
+  npm i
+```
+
+- Do the necessory changes like providing the s3 bucket region, key and secret key in the process.env file for saving the image in s3 bucket. 
+- Do the some changes in the nodemailer option and in the createTransport funntion to make it workable for the email you provided.
 
 It is over now start sending requests using the postman
 
