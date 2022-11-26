@@ -19,8 +19,8 @@ Here the challenges I faced:-
 
 The project folder's structure is like this:-
 
-![image](https://user-images.githubusercontent.com/89704806/204094128-bb0ca19e-3821-4ae3-9630-507d649bb159.png)                                                                                                                                                  ![image](https://user-images.githubusercontent.com/89704806/204094037-17f9ac6a-86ca-4e7c-8c07-d12fd2f5411c.png)                 
-
+<img width="120" alt="image" src="https://user-images.githubusercontent.com/89704806/204096833-de854178-5c89-44d0-aaee-b2673f483831.png">
+           
 
 
 ## How to install and make it workable?
