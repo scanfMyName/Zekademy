@@ -20,7 +20,8 @@ Here the challenges I faced:-
 
 The project folder's structure is like this:-
 
-![image](https://user-images.githubusercontent.com/89704806/204094037-17f9ac6a-86ca-4e7c-8c07-d12fd2f5411c.png)                 ![image](https://user-images.githubusercontent.com/89704806/204094023-0a9196b7-141f-4d27-90e3-41c86e030c96.png)   
+![image](https://user-images.githubusercontent.com/89704806/204094128-bb0ca19e-3821-4ae3-9630-507d649bb159.png)                            ![image](https://user-images.githubusercontent.com/89704806/204094037-17f9ac6a-86ca-4e7c-8c07-d12fd2f5411c.png)                 
+
 
 
 # How to install and make it workable?
