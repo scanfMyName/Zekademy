@@ -26,12 +26,13 @@ The project folder's structure is like this:-
 
 ## How to install and make it workable?
 
-Clone this repository and install the postman 
-To install all the dependencies do
+Clone this repository and install the postman(if you haven't). 
+To install all the dependencies for the server to run, write :-
 
 ```bash
   npm i
 ```
+in your terminal.
 
 - Do the necessory changes like providing the s3 bucket region, key and secret key and also the mongodb database's connect link in the process.env  file for saving the image in s3 bucket and storing user's details. 
 - Do the some changes in the nodemailer option and in the createTransport funntion to make it workable for the email you provided to send confirmation emails to the new users.
