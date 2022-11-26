@@ -2,7 +2,7 @@
 Assignment
 
 
-Project Description
+#Project Description
 
 This project is a part of assignment given by Zekaademy.
 
@@ -14,16 +14,23 @@ I used json-web-token library to implement the jwt token functionality and the n
 
 I used here the node js library with express framework to implement the server functionality because I find it easy to use and scalable in future. Also it lead to a pathway to use a lot of other libraries which are quite compatible with it. 
 
-Here the challenges I faced that nodemailer is quite uncomfortable with using common email services such as gmail and other services. Also the free AWS account creation needs your credit details which is not easily possible for everyone to use.
+Here the challenges I faced:-
+1. Nodemailer is quite uncomfortable with using common email services such as gmail and other services. 
+2. The free AWS account creation needs your credit details which is not easily possible for everyone to use.
 
-How to install and make it workable
+The project folder's structure is like this:-
+
+![image](https://user-images.githubusercontent.com/89704806/204094037-17f9ac6a-86ca-4e7c-8c07-d12fd2f5411c.png)                 ![image](https://user-images.githubusercontent.com/89704806/204094023-0a9196b7-141f-4d27-90e3-41c86e030c96.png)   
+
+
+#How to install and make it workable?
 
 Just need to clone this repository and install the postman 
 Do the necessory changes like providing the s3 bucket region, key and secret key in the process.env file for saving the image in s3 bucket also you need do the some changes in the nodemailer option and in the createTransport funntion to make it workable for the email you provided.
 
 It is over now start sending requests using the postman
 
-To make it workable for a frontend app
+#To make it workable for a frontend app
 You just need to call the following apis in the frontend
 1. /api/register : 
 Here you need to send the user's information in json data format in body of the request
